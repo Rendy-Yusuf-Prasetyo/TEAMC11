@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompanyP</title>
 
+	<!-- Font Awesome v4.7.0 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <nav class="topnav" id="myTopnav">
+		<div class="brand">
+			<a href="" class="logo">Brand</a>
+		</div>
+		<a href="#menu" class="list-nav btn-nav">Menu</a>
+		<a href="#membership" class="list-nav btn-nav">Membership</a>
+		<a href="#contact" class="list-nav btn-nav">Contact Us</a>
+		<a href="https://www.google.com/maps" class="list-nav btn-nav">Location</a>
+		<a href="#" class="icon" onclick="responsive()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</nav>
+
+	<!-- Jumbotron -->
+	<section class="home" id="home">
+		<div class="jumbotron" style="background-image: url('assets/img/jumbotron.png'); background-color: rgba(0,0,0,0.4); background-size: cover; background-position: center;">
+			<div class="jumbotron-content" style="text-align: center;">
+				<h1>Next Level Software Engineer Team</h1>
+				<h1>Fastest, Secure, & Powerfull</h1>
+				<h2>Selalu mengutamakan kualitas produk <br>Menjadikan web dan aplikasi lebih dewasa</h2>
+				<div class="enter">
+					<a href="#" class="enter-button">Enter!</a>
+				</div>
+			</div>
+		</div>
+    </section>
+	
+
+<script>
+	function responsive() {
+		var topnav = document.getElementById("myTopnav");
+		if (topnav.className === "topnav") {
+			topnav.className += " responsive";
+		} else {
+			topnav.className = "topnav";
+		}
+	}
+</script>
+
+</body>
+</html>
