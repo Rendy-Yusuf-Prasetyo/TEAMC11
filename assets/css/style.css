@@ -151,7 +151,7 @@
   
   .contents-item {
     float: left;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     /* margin-right: 40px; */
   }
   
@@ -254,8 +254,8 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 1170px;
+.container-atas {
+    width: 100%;
     padding: 0 15px;
     margin: 0 auto;
   }
