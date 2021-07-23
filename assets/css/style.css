@@ -133,71 +133,145 @@
 
 /*CSS UNTUK KEUNGGULAN */
 
-.contents {
-    height: 500px;
-    margin-top: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-    /* margin-left: 150px;
-    margin-right: 150px; */
-  }
-  
-  .section-title {
-    border-bottom: 2px solid #dee7ec;
-    font-size: 28px;
-    /* padding-bottom: 15px; */
-    /* margin-bottom: 50px; */
-  }
-  
-  .contents-item {
-    float: left;
-    /* margin-left: 100px; */
-    /* margin-right: 40px; */
-  }
-  
-  .contents-item h5 {
-    font-size: 25px;
-    margin-top: 60px;
-    font-family: Roboto;
-    margin-bottom: 120px;
-    }
-  
-.contents-item p{
-    margin: 0px 100px;
-    padding-bottom: 50px;
-    margin-top: -100px;
-    font-family: roboto;
+.gambar-menu img{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    align-self: center;
+    margin-top: 150px;
 }
 
-.row-1{
-    margin-bottom: -700px;
-}
-.row-2{
-    margin-top: -100px;
+.bagian-atas{
+    margin-bottom: 100px;    
 }
 
-.contents-item img{
-    margin-bottom: -50px;
-    height: 100px;
-    width: 100px;
-}
-
-.gambar-menu{
-    margin-bottom: px;
-}
-
-.bagian-1 p{
+.bagian-atas p{
     font-style: italic;
+}
+
+.bagian-atas h5{
+    font-family: roboto;
+    font-size: 30px;
+}
+
+
+.contents-item-up-left{
+    float: left;
+    margin-left: -90px;
+}
+
+.contents-item-up-left img{
+    height: 200px;
+    width: 200px;
+}
+
+.contents-item-up-left h5{
+    font-size: 20px;
+    font-style: oblique;
     margin-top: 10px;
-    margin-bottom: -50px;
+    margin-bottom: 20px;
 }
-.bagian-1 h5{
-    font-size: 35px;
-    font-family: Roboto;
+
+.contents-item-up-left p{
+    font-size: 15px;
 }
+
+.contents-item-up-right{
+    float: right;
+    margin-left: 285px;
+    /* margin-bottom: 100px; */
+}
+
+
+.contents-item-up-right img{
+    height: 200px;
+    width: 200px;
+}
+
+.contents-item-up-right h5{
+    font-size: 20px;
+    font-style: oblique;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.contents-item-up-right p{
+    font-size: 15px;
+}
+
+.contents-item-center{
+    /* margin-left: 285px; */
+    /* margin-bottom: 100px; */
+}
+
+.contents-item-center img{
+    margin-top: 50px;
+    margin-right: -405px ;
+    margin-left: 300px;
+    height: 200px;
+    width: 200px;
+}
+
+.contents-item-center h5{
+    font-size: 20px;
+    font-style: oblique;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.contents-item-item_center p{
+    font-size: 15px;
+}
+
+.contents-item-down-left{
+    float: left;
+    margin-left: -90px;
+    margin-bottom: 100px
+}
+
+.contents-item-down-left img{
+    height: 200px;
+    width: 200px;
+}
+
+.contents-item-down-left h5{
+    font-size: 20px;
+    font-style: oblique;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.contents-item-down-left p{
+    font-size: 15px;
+}
+
+.contents-item-down-right{
+    float: right;
+    margin-left: 285px;
+    margin-bottom: 100px;
+}
+
+.contents-item-down-right img{
+    height: 200px;
+    width: 200px;
+}
+
+.contents-item-down-right h5{
+    font-size: 20px;
+    font-style: oblique;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.contents-item-down-right p{
+    font-size: 15px;
+}
+
 
 /* Section-item */
 .content-heading {
+    padding-top: 100px;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -254,8 +328,8 @@
     box-sizing: border-box;
 }
 
-.container-atas {
-    width: 100%;
+.container {
+    width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
   }
@@ -515,5 +589,3 @@ hr{
   }
 
   /* FOOTER END */
-
-
