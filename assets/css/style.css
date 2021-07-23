@@ -196,6 +196,118 @@
     font-family: Roboto;
 }
 
+/* Section-item */
+.content-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.content-heading h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.img-content{
+    max-width: 75%;
+    height: auto;
+}
+
+.jaminan{
+    display:flex;
+    margin-bottom: 50px;
+}
+
+.jaminan-description p{
+    font-family: inherit;
+    font-weight: 400;
+    color: #6f6f6f;
+    line-height: 30px;
+    text-rendering: optimizeLegibility;
+}
+
+.jaminan-description{
+    display: block;
+}
+.jaminan-description h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 1px !important;
+    margin-bottom: 20px !important;
+}
+
+.jaminan-description span{
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6f6f6f;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px !important;
+    margin-top: 0px !important;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+.lesson {
+    float: left;
+    width: 25%;
+  }
+
+.lesson-icon{
+    position:relative;
+  }
+
+  .lesson-icon p{
+    position:absolute;
+    top:90px;
+    width:100%;    
+  }
+  
+  .txt-contents{
+    width:80%;
+    display:inline-block;
+    margin-top:20px;
+    font-size:15px;
+  }
+  
+  .item-icon{
+    position:relative;
+    text-align: center;
+  }
+
+  .content-item{
+      display:flex;
+  }
+  .item{
+      width: 25%;
+      text-align: center;
+  }
+ .item-icon p{
+    position:absolute;
+    top:90px;
+    width:100%;
+    color:black;
+ }
+ .item h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+ }
+ .item span{
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+ }
+
 
 
 /* Section-Client */
