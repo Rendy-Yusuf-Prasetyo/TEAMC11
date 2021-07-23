@@ -299,8 +299,109 @@ hr{
 /* Akhir Section-Client */
 
 
+/* FOOTER */
+.section-title {
+    border-bottom: 2px solid black;
+    font-size: 28px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+  }
+  
+  .contact-form {
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
+  .contact-form p {
+    padding-left: 15px;
+  }
 
+  .contact-submit {
+    color: #889eab;
+  }
+  
+  /* textarea */
+  input {
+    width: 300px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid black;
+  }
 
+/* Button */
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  .message {
+    padding: 15px 40px;
+    margin-left: 15px;
+    color: #000000;
+    background-color: #bcec0e;
+    cursor: pointer;
+    box-shadow: 0 7px #767c19;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }  
+  
+
+.icon {
+    padding-top: 20px;
+    display: flex;
+}
+
+.container {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    height: 100px;
+    padding: 40px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+
+  .footer-list:hover {
+    color:#bcec0e;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+  }
+
+  .footer-end {
+    background-color: #bcec0e;
+  }
+
+  /* FOOTER END */
 
 
