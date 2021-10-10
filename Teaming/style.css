@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    padding: 0 10px;
+    margin: auto;
+    text-align: center;
+}
+.top, .image-client{
+    margin-top: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+.top h2{
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+hr{
+    display: inline-block;
+    width: 7rem; 
+    margin-bottom: 3px;
+    color: rgb(161, 161, 161);
+}
+.garis i{
+    font-size: 13px;
+    color: rgb(161, 161, 161);
+    margin: 0 10px;
+}
+.garis{
+    margin: 20px 0;
+}
+.serif-italic{
+    font-family: 'Lora',
+    serif;
+    font-style: italic;
+    font-size: 14px;
+    color: rgb(161, 161, 161);
+}
+
+.image img{
+    display: inline-block;
+    margin: 0 20px;
+    box-shadow: 0px 0px 10px 3px rgb(161, 161, 161);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    opacity: .5;
+}
+
+.image .active{
+    box-shadow: 0px 0px 20px 5px #f9b234;
+    opacity:1;
+}
+.caption{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    align-items:center ;
+    justify-content: center;
+}
+.caption p{
+    display: inline-block;
+    width: 60%;
+    margin:0 50px ;
+    font-family: 'Roboto',sans-serif;
+    font-style: italic;
+    color: rgb(102, 102, 102);
+}
+.left, .right{
+    cursor: pointer;
+}
+.bottom .garis i{
+    font-size: 20px;
+}
+.bottom h4 {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    color: rgb(102, 102, 102);
+}
+.bottom p{
+    color: rgb(102, 102, 102);
+    margin-top: 2px;
+    font-family: 'Roboto',sans-serif;
+    font-style: italic;
+    font-size: 14px;
+}
+button{
+    margin-top: 30px;
+    padding: 15px 40px;
+    text-align: center;
+    border: none;
+    background-color:#f9b234;
+    color: white;
+    font-family: 'Roboto',
+    sans-serif;
+}
+button:hover{
+    background-color:#ad7a22;
+}
